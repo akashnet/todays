@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!-- saved from url=(0103)http://127.0.0.1:5500/AKASH/sec.html?user=akash&CONTACT=hjbskjnclam+&M1=on&filename=battry+replace.xlsx -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0 ;
+            padding:0;
+        }
+        table{
+             
+            width:650px;
+            height: 350px;
+            color:black;
+            margin-top: 20px;
+            margin-left: 25px;
+            color :white;
+    
+
+        }
+        .le {
+           padding-top: 35PX;
+        }
+        .fi{
+            padding-left: 35PX;
+            WIDTH:350PX;
+            margin-left: 45PX;
+            background: #4267B2;
+                }
+    </style>
+</head>
+<body style="background:#d8dbd9 ">
+    <h2 style="text-align: CENTER; MARGIN-LEFT:5PX; COLOR:BLUE; FONT-SIZE:BOLD;">REGISTRATION FORM FOR STUDANT</h2>
+    <form>
+    <fieldset class="fi"> 
+      <legend class="le"><strong style="color:azure">Registraton form</strong></legend>
+ <table class="table">
+<tbody><tr>
+<td>NAME :</td>
+<td>
+    <input type="text" name="user" placeholder="ENTER YOUR NAME"> <br> 
+</td>
+
+</tr>
+
+<tr> <td>PASSWORD</td>
+    <td>
+
+        <input type="PASSWORD" valute="PASSWORD" placeholder="233333"><br>
+    </td>
+
+</tr>
+<tr>
+<td> DATE OF BIRTH</td>
+<td>
+    <input type="DATE"><br>
+</td>
+
+</tr>
+<tr>
+    <td>PHONE NUMBER</td>
+    <td>
+        <input type="PHONE" name="CONTACT" autofocus="" placeholder="998733****"> <br>
+
+    </td> 
+    <td>
+        <select>
+            <option>select country code</option>
+            <option>+92</option>
+            <option>+81</option>
+            <option>+97</option>
+            <option>+95</option>
+            <option>+96</option>
+        </select>
+    </td>
+    
+    <td>    <select>
+        <option>SELECT CITY</option>
+        <option>MUMBAI</option>
+        <option>RAJESTAN</option>
+        <option>UTARAKANF</option>
+        <option>NEPAL</option>
+        <option>SURAT</option>
+        <option>HYDRABAD</option>
+    </select>
+</td>
+</tr> <tr>
+    <td>
+        EMAIL ID :
+    </td>
+    <td>
+        <input type="EMAIL" placeholder="TYPE YOUR MAIL ID ">
+    </td>
+</tr>
+<tr>
+    <td>
+        GENDER    :
+    </td>
+    <td>
+        <input type="radio" name="M1"> MALE
+        <input type="radio" name="M2"> FEMALE
+        <input type="radio" name="M3"> OTHER 
+    </td>
+</tr>
+ <tr>
+    <td> LANGUAGE  KNOWN :</td>
+    <td>
+        <input type="checkbox" hindi="">HINDI
+            <input type="checkbox" hindi="">MARATHI
+                <input type="checkbox" hindi="">ENGLISH
+    </td>
+ </tr>
+ <tr>
+    <td>Document Upload</td>
+    <td>
+        <input type="file" id="myFile" name="filename">
+    </td>
+   
+ </tr>
+  <tr>
+    <td>
+       <input type="submit" value="SUBMIT ">  
+       <input type="submit" value="SUBMIT ">
+    </td>
+  </tr>
+
+ </tbody></table>
+</fieldset> 
+    </form>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
